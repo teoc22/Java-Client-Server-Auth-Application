@@ -37,3 +37,30 @@ Project_Root/
 │
 └── pom.xml # Maven project file.
 ```
+
+## How To Run
+
+```
+Here's how you can run each Java file in VS Code terminal using Maven:
+
+AppLogger.java:
+No specific execution command as it's a utility class for logging.
+
+ConsoleApplication.java:
+Run the command: mvn exec:java@console
+
+DatabaseConnection.java:
+No specific execution command as it's a utility class for managing database connections.
+
+LoginApplication.java:
+Run the command: mvn exec:java@login
+
+PasswordReset.java:
+Run the command: mvn exec:java@reset
+
+PasswordUtil.java:
+No specific execution command as it's a utility class for password hashing.
+
+RegistrationApplication.java:
+Run the command: mvn exec:java@register
+```
