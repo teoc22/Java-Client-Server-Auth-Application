@@ -2,19 +2,24 @@
 This repository contains a Java application designed for handling user authentication processes, including login, registration, password reset, and session management. It demonstrates the integration of JDBC for database operations, BCrypt for secure password hashing, and basic state management for user sessions in a console-based environment.
 
 ## Tech Stack Summary
+```
 1. Java: Core language used for building the application.
 2. JDBC: Java Database Connectivity for database interactions.
 3. MySQL: Relational database to store user data.
 4. BCrypt: Library used for hashing and checking passwords securely.
 5. Maven: Dependency management and project build.
+```
 
 ## Principles Used
+```
 - **MVC Architecture**: Although primarily backend-focused, the application is structured in a way that respects the MVC (Model-View-Controller) design by separating the data access, business logic, and presentation layers.
 - **SOLID Principles**: Adheres to SOLID principles for object-oriented design to enhance maintainability and scalability.
 - **Security Best Practices**: Utilizes BCrypt for secure password hashing and employs prepared statements in JDBC to prevent SQL Injection attacks.
+```
 
 ## Project Structure Diagram
 
+```
 Project_Root/
 │
 ├── src/
@@ -31,3 +36,4 @@ Project_Root/
 │     └── RegistrationApplication.java # Manages user registration.
 │
 └── pom.xml # Maven project file.
+```
