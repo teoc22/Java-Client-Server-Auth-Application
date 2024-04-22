@@ -1,14 +1,12 @@
-# Java-Client-Server-Auth-Application
-
 ## Description
 This repository contains a Java application designed for handling user authentication processes, including login, registration, password reset, and session management. It demonstrates the integration of JDBC for database operations, BCrypt for secure password hashing, and basic state management for user sessions in a console-based environment.
 
 ## Tech Stack Summary
-- **Java**: Core language used for building the application.
-- **JDBC**: Java Database Connectivity for database interactions.
-- **MySQL**: Relational database to store user data.
-- **BCrypt**: Library used for hashing and checking passwords securely.
-- **Maven**: Dependency management and project build.
+1. Java: Core language used for building the application.
+2. JDBC: Java Database Connectivity for database interactions.
+3. MySQL: Relational database to store user data.
+4. BCrypt: Library used for hashing and checking passwords securely.
+5. Maven: Dependency management and project build.
 
 ## Principles Used
 - **MVC Architecture**: Although primarily backend-focused, the application is structured in a way that respects the MVC (Model-View-Controller) design by separating the data access, business logic, and presentation layers.
